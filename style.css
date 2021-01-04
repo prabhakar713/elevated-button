@@ -1,0 +1,32 @@
+
+
+
+
+.btn{
+    background-color: peru;
+    margin:100px;
+    color:white;
+    font-size:30pt;
+    padding:50px;
+    width:200px;
+    border-radius: 10px;
+    
+    /* for only shdow behind button
+    box-shadow: gray 10px 10px; */
+    
+    
+    /* for bluring the shadow
+    box-shadow: gray 10px 10px 10px; */
+    box-shadow: gray 10px 10px 10px;
+}
+
+.btn:hover{
+   box-shadow:green 10px 10px 10px;
+   transform: translate(10px,10px);
+}
+
+.btn:active{
+    transform: translate(55px,55px);
+    box-shadow:red 10px 10px 10px;
+    color:blue;
+}
